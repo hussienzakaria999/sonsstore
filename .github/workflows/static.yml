@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>Sons Store - ملابس أطفال براندات أوروبية</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background: linear-gradient(to bottom right, #fff3e0, #ffe0b2);
+      margin: 0;
+      padding: 20px;
+      text-align: center;
+      color: #333;
+      direction: rtl;
+    }
+
+    .container {
+      max-width: 600px;
+      margin: auto;
+      background: #fff;
+      padding: 25px;
+      border-radius: 20px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    }
+
+    .logo {
+      width: 140px;
+      border-radius: 50%;
+      margin-bottom: 20px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    }
+
+    h1 {
+      font-size: 28px;
+      color: #ff8000;
+      margin-bottom: 15px;
+    }
+
+    .section {
+      background-color: #fef8f3;
+      border: 2px dashed #ffd699;
+      border-radius: 15px;
+      padding: 20px;
+      margin-bottom: 20px;
+    }
+
+    .section p {
+      font-size: 16px;
+      line-height: 1.8;
+    }
+
+    .icons {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+
+    .trust {
+      background-color: #e6ffe6;
+      border: 2px dashed #a5d6a7;
+      color: #2e7d32;
+    }
+
+    .notice {
+      background-color: #fff0cc;
+      border: 2px dashed #ffb84d;
+      color: #cc5200;
+    }
+
+    .buttons a {
+      display: inline-block;
+      margin: 10px 5px;
+      padding: 12px 25px;
+      background: #ff944d;
+      color: white;
+      text-decoration: none;
+      border-radius: 25px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .buttons a:hover {
+      background: #e67300;
+    }
+
+    .cta {
+      background: #28a745;
+      font-size: 18px;
+    }
+
+    @media (max-width: 600px) {
+      body {
+        padding: 15px;
+      }
+
+      .container {
+        padding: 20px 15px;
+      }
+
+      .buttons a {
+        display: block;
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- اللوجو -->
+  <img src="sons.jpeg.jpeg" alt="Sons Store Logo" class="logo">
+
+  <div class="container">
+
+    <!-- اسم المتجر -->
+    <h1>Sons Store</h1>
+
+    <!-- وصف المنتجات وجودتها -->
+    <div class="section">
+      <div class="icons">👕👗🧒👶</div>
+      <p>
+        استعدي لصيف أنيق لطفلك! 🌞<br>
+        تشكيلتنا الأوروبية الجديدة من براند <strong>Overkids</strong> الإيطالي توفر لكِ الراحة، الجودة، والأناقة في قطعة واحدة.
+        <br>اخترنا أفضل القطع بألوان مرحة وتصميمات عصرية للأطفال 💛
+      </p>
+    </div>
+
+    <!-- معلومات الشحن والثقة -->
+    <div class="section trust">
+      🚚 شحن سريع لجميع المحافظات<br>
+      🔄 إمكانية استبدال خلال 48 ساعة<br>
+      ✅ صور حقيقية 100% ومقاسات دقيقة<br>
+      💯 جودة أوروبية مضمونة
+    </div>
+
+    <!-- روابط التواصل -->
+    <div class="section">
+      <p>📞 تواصلي معنا:</p>
+      <div class="buttons">
+        <a href="https://wa.me/YOURNUMBER" target="_blank">واتساب</a>
+        <a href="https://instagram.com/YOURPROFILE" target="_blank">إنستجرام</a>
+        <a href="https://facebook.com/YOURPAGE" target="_blank">فيسبوك</a>
+      </div>
+    </div>
+
+    <!-- زر الحجز -->
+    <a class="buttons cta" href="https://wa.me/YOURNUMBER" target="_blank">✨ احجزي الآن – الكمية محدودة ✨</a>
+
+    <!-- تنبيه الحجز المسبق -->
+    <div class="section notice">
+      ⚠️ البيع بأولوية الحجز<br>
+      احجزي الآن قبل نفاد المقاسات!
+    </div>
+
+  </div>
+
+</body>
+</html>
